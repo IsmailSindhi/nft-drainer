@@ -1,11 +1,11 @@
 import React from "react";
-
+import Comp from "./Comp";
 const Home = () => {
   return (
     <div className="px-12 flex flex-col items-center justify-center gap-4 bg-gradient-to-br from-[#2C1553] via-[#020328] to-[#0E125E] h-screen relative overflow-x-hidden">
       <div className=" flex flex-col md:flex-row gap-8 lg:gap-24 items-center justify-center">
-        <div className="text-center text-white bg-[#17114C] text-5xl rounded-3xl p-12 flex items-center lg:w-3/6">
-          Mint Free NFT
+        <div className="w-96 text-center text-white bg-[#17114C] rounded-3xl p-6 ">
+          <Comp />
         </div>
         <div className="w-80 lg:w-3/6">
           <img src="/nft.png" alt="Not Found" />
